@@ -76,6 +76,12 @@ const Footer = () => {
           <h3 className='head-text'>Thank you for getting in touch!</h3>
         </div>
       }
+
+      <div className='copyright'>
+        <p className='p-text'>@2022 Tharisha Perera</p>
+        <p className='p-text'>All rights reserved</p>
+      </div>
+
     </>
   )
 }
