@@ -1,0 +1,22 @@
+export default {
+    name:'education',
+    title:'Education',
+    type:'document',
+    fields:[
+        {
+            name:'duration',
+            title:'Duration',
+            type:'string'
+        },
+        {
+            name:'title',
+            title:'Title',
+            type:'string'
+        },
+        {
+            name:'institute',
+            title:'Institute',
+            type:'text'
+        }
+    ]
+}
