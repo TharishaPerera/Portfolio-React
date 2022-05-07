@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapisecom/ css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #151729;
+    height: 100%;
+}
+
+#container {
+    position: absolute;
+    /* top: 5%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%; */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('p404.png'), #151729;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+
+#container .content{
+    max-width: 600px;
+    text-align: center;
+}
+
+#container .content h2{
+    font-size: 130px;
+    color: #fff;
+    line-height: 1em;
+}
+
+#container .content h4{
+    position: relative;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 300;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+#container .content p{
+    color: #fff;
+    font-size: 1rem;
+}
+
+#container .content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    background: #313bac;
+    color: #fff;
+    text-decoration: none ;
+    margin-top: 40px;
+    border-radius: 25px;
+    border-bottom: 4px solid #0c1575;
+}
+
+#container .content a:hover{
+    background: #444ca1;
+}
+
+@media screen and (max-width: 768px) {
+    #container .content h2{
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #container .content h2{
+        font-size: 90px;
+    }
+
+    #container .content p{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
