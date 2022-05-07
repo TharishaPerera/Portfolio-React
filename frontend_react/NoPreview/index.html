@@ -16,7 +16,7 @@
                 <h2>Oops!</h2>
                 <h4>Preview is not available</h4>
                 <p>The preview of the project that you are looking for is not available.</p>
-                <a href="#">Back To Home</a>
+                <a href="" onclick="closeWindow()">Back To Home</a>
             </div>
         </div>
 
@@ -28,6 +28,10 @@
                 container.style.backgroundPositionX = x + "px";
                 container.style.backgroundPositionY = y + "px";
             };
+
+            function closeWindow(){
+                window.close();
+            }
         </script>
     </body>
 </html>
