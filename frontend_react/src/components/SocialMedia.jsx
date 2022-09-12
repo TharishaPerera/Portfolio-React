@@ -1,6 +1,6 @@
 import React from 'react';
-import { BsInstagram } from 'react-icons/bs';
-import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+import { BsInstagram, BsGithub } from 'react-icons/bs';
+import { FaFacebookF, FaLinkedinIn, FaBlogger } from 'react-icons/fa';
 
 const SocialMedia = () => {
   return (
@@ -8,6 +8,18 @@ const SocialMedia = () => {
       <div>
         <a href="https://www.linkedin.com/in/tharisha-perera" target='_blank' rel='noreferre'>
           <FaLinkedinIn />
+        </a>
+      </div>
+
+      <div>
+        <a href="https://github.com/TharishaPerera/" target='_blank' rel='noreferre'>
+          <BsGithub />
+        </a>
+      </div>
+
+      <div>
+        <a href="https://blog-tharishaperera.netlify.app/" target='_blank' rel='noreferre'>
+          <FaBlogger />
         </a>
       </div>
 
